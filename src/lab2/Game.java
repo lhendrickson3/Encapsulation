@@ -9,5 +9,5 @@ package lab2;
  * @author User
  */
 public class Game {
-    
+
 }
