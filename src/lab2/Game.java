@@ -10,4 +10,21 @@ package lab2;
  */
 public class Game {
 
+    private String saveFile;
+    
+    private GameCharacter toon1 = new GameCharacter();
+    private GameWorld world1 = new GameWorld();
+    
+    public void loadSaveFile(String saveFile){
+        System.out.println("loading your last save point");
+    }
+
+    public String getSaveFile() {
+        return saveFile;
+    }
+
+    public void setSaveFile(String saveFile) {
+        this.saveFile = saveFile;
+    }
+    
 }
