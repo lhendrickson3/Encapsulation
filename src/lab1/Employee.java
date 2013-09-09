@@ -98,7 +98,10 @@ public class Employee {
 
     }
     public void competeOrientation(){
-        
+        meetWithHrForBenefitAndSalryInfo();
+        meetDepartmentStaff();
+        reviewDeptPolicies();
+        moveIntoCubicle("123");
     }
 
     // Assume this must be performed first
