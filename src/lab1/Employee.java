@@ -97,7 +97,7 @@ public class Employee {
     public Employee() {
 
     }
-    public void competeOrientation(){
+    public void completeOrientation(){
         meetWithHrForBenefitAndSalryInfo();
         meetDepartmentStaff();
         reviewDeptPolicies();
